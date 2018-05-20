@@ -32,6 +32,7 @@ export default class Game extends React.Component {
       return;
     }
 
+
     const difference = Math.abs(guess - this.state.correctAnswer);
 
     let feedback;
